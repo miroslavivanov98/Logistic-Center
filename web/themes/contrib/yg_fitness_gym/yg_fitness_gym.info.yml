@@ -1,0 +1,39 @@
+name: 'Fitness Gym Theme'
+description: 'This is Fitness center theme'
+core_version_requirement: ^8 || ^9
+type: theme
+base theme: classy
+package: 'Bootstrap'
+screenshot: Screenshot.png
+
+
+
+
+regions:
+  navigation: 'Navigation'
+  primary_menu: 'primary_menu'
+  header: 'Top Bar'
+  highlighted: 'Highlighted'
+  logo: 'logo'
+  content: 'Content'
+  sidebar_first: 'Primary'
+  sidebar_second: 'Secondary'
+  portfolio: 'portfolio'
+  carousel: 'carousel'
+  blog: 'blog'
+  map: 'map'
+  aboutus: 'aboutus'
+  address: 'address'
+  contact: 'contact'
+  footer: 'footer'
+  social footer: 'social_footer'
+
+
+libraries:
+  
+  - yg_fitness_gym/global-css
+  - yg_fitness_gym/global-js
+# Information added by Drupal.org packaging script on 2020-08-24
+version: '2.0.0'
+project: 'yg_fitness_gym'
+datestamp: 1598268574

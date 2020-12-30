@@ -1,0 +1,29 @@
+global-css: # Libraries needed in all pages.
+  css:
+    theme:
+      'https://fonts.googleapis.com/css?family=Roboto:400,100,300,700,900': { type: external, minified: true }
+      
+      css/animate.css: {}
+      css/icomoon.css: {}
+      css/bootstrap.css: {}
+      css/superfish.css: {}
+      css/style.css: {}
+    
+      
+global-js:     
+
+  js:
+    js/jquery-migrate-3.0.0.min.js: {}
+    js/jquery.waypoints.min.js: {}
+    js/jquery.stellar.min.js: {}
+    js/hoverIntent.js: {}
+    js/superfish.js: {}
+    js/main.js: {}
+
+  dependencies:
+    - core/drupal
+    - core/modernizr
+    
+   
+ 
+
