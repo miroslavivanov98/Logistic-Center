@@ -20,6 +20,7 @@
         "drupal/core-project-message": "^9.1",
         "drupal/core-recommended": "^9.1",
         "drupal/entity_print": "^2.2",
+        "drupal/paragraphs": "^1.12",
         "drupal/pdf_generator": "^2.0",
         "drupal/webform": "~6.0",
         "drupal/yg_fitness_gym": "^2.0",
