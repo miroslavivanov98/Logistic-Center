@@ -459,6 +459,9 @@ ul.nav.navbar-nav li:first-childd:after {
 .blog_caption ul li a {
     font-family: 'Open Sans', sans-serif
 }
+#banner_section p, #banner_section h1{
+ color:black !important;
+}
 
 #banner-slider {
     position: relative;
