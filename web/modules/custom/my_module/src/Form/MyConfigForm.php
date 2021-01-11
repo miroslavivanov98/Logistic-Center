@@ -24,10 +24,8 @@ class MyConfigForm extends ConfigFormBase {
         $config = $this->config('my_module.settings');
 
         $form['reviews'] = [
-            #'#type' => 'textarea',
             '#type' => 'text_format',
             '#title' => 'Редактиране на страницата',
-            #'#default_value' => $config->get('terms_and_conditions'),
             '#default_value' => $config->get('reviews')['value'],
             '#required' => TRUE,
 
