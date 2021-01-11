@@ -24,8 +24,10 @@
         "drupal/date_popup": "^1.1",
         "drupal/entity_print": "^2.2",
         "drupal/freelancer_zymphonies_theme": "^2.0",
+        "drupal/google_map_field": "^1.14",
         "drupal/paragraphs": "^1.12",
         "drupal/pdf_generator": "^2.0",
+        "drupal/simple_gmap": "^3.0",
         "drupal/webform": "~6.0",
         "drupal/yg_fitness_gym": "^2.0",
         "drupal/yg_logistics": "^2.0"
