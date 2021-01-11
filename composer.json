@@ -26,6 +26,7 @@
         "drupal/freelancer_zymphonies_theme": "^2.0",
         "drupal/google_map_field": "^1.14",
         "drupal/paragraphs": "^1.12",
+        "drupal/pathauto": "^1.8",
         "drupal/pdf_generator": "^2.0",
         "drupal/simple_gmap": "^3.0",
         "drupal/webform": "~6.0",
