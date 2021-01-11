@@ -6,6 +6,18 @@ To install:
 2. navigate to the directory with the terminal
 3. type `composer install` to install dependencies
 4. copy my db and insert in project
+5. update vhost:  C:\xampp\apache\conf\extra\httpd-vhosts.conf
+    <VirtualHost *:80>
+    DocumentRoot "C:/xampp/htdocs/drupal/logistic-center"
+    ServerName my-drupal.com
+    <Directory "C:/xampp/htdocs/drupal/logistic-center">
+    Options Indexes FollowSymLinks MultiViews
+    AllowOverride all
+    Order Deny,Allow
+    Allow from all
+    Require all granted
+    </Directory>
+    </VirtualHost>
 
 Системата е сайт за логистичен център през който може да се добавя пратка както и да се показват всички направени такива.
 Пратката има полета Заглавие, от, до, цена, килограми, обем, описание(като потребителите могат да качват и описание като .pdf формат), дата на изпращане която по подразбиране е текущата при създаване на пратката, дата на получаване която по подразбиране е 2 дена след датата на изпращане, има възможност за качване на снимка но тя не е задължителна.
